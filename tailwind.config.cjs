@@ -6,26 +6,31 @@ module.exports = {
   ],
   theme: {
     extend: {
-        colors: {
-        "light-orange": "#F0D0AA",
-        "lemon-chiffon": "#FFF2C5",
-          "Feldgrau": "#3b5249",
-          "rose-ebony": "#63474D",
-          "raisin-black": {
-            100:'#F7F3F5',
-            200:'#DECED6',
-            300:'#C6A9B8',
-            400:'#AD859A',
-            500:'#93627B',
-            600:'#6E495C',
-            700:'#49313E',
-            800:'#25181F',
-            900:'#0C080A',
-          },
+      colors: {
+        "light-orange": "#44bba4",
+        "lemon-chiffon": "#FFFBEB",
+        "Feldgrau": "#3b5249",
+        "indian-red":"#A4A8D1",
+        "rose-ebony": "#63474D",
+        "raisin-black": {
+          100: '#F7F3F5',
+          200: '#DECED6',
+          300: '#C6A9B8',
+          400: '#AD859A',
+          500: '#93627B',
+          600: '#6E495C',
+          700: '#49313E',
+          800: '#25181F',
+          900: '#0C080A',
+        },
       },
       fontFamily: {
         sans: ['Sono']
       },
+      margin: {
+        '1/4': '25%',
+        '1/8': '12.5%',
+      }
     },
   },
   plugins: [],
