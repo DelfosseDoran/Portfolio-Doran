@@ -2,8 +2,8 @@ import Links from './Link';
 
 export default () => {
   return (
-    <header className="mb-4">
-      <div className="flex justify-end font-medium text-raisin-black-600">
+    <header className="pb-4">
+      <div className="justify-end font-medium text-raisin-black-600 hidden md:flex">
         <Links
           link="/home"
           text="Home"
@@ -29,7 +29,7 @@ export default () => {
           paddingbot="pb-4"
         />
         <Links
-          link=""
+          link="/photography"
           text="Photography"
           colorText="hover:text-light-orange"
           colorbg1="peer-hover:bg-light-orange"

@@ -6,11 +6,10 @@ export default () => {
     <main>
       <div className="flex justify-center ">
         <div className="w-2/4">
-          <h1 className=" p-2 text-5xl font-bold text-raisin-black-700">
-            HI learn more about me, and this webside will help you. Doran
-            Delfosse And his website
+          <h1 className=" p-2 text-5xl font-bold text-raisin-black-700 mr-10 mb-12">
+            Hey I am Doran Delfosse and with this website you will learn more about me.
           </h1>
-          <div className="-ml-1/4 flex w-screen bg-indian-red ">
+          <div className="-ml-1/4 flex w-screen bg-cool-grey ">
             <div className="ml-1/8 flex w-2/4 p-2 font-medium">
               <div>
                 <h2 className="text-3xl font-medium">Schools:</h2>
@@ -52,7 +51,7 @@ export default () => {
             </p>
             <div className="flex justify-end">
               <Links
-                link="projects"
+                link="/projects"
                 text="learn more"
                 colorText="text-bg-lemon-chiffon"
                 colorbg2="peer-hover:bg-lemon-chiffon"
@@ -82,12 +81,12 @@ export default () => {
               started combining them. Now take a look at where I went.
             </p>
             <div className="flex justify-end">
-              <div className="relative mx-1 flex flex-col ">
-                <Link to="" className="peer text-right ">
-                  Learn more
-                </Link>
-                <span className="absolute bottom-0 left-0 h-1 w-full origin-left scale-y-50 scale-x-0 bg-lemon-chiffon duration-200 peer-hover:scale-x-100"></span>
-              </div>
+              <Links
+                link="/photography"
+                text="learn more"
+                colorText="text-bg-lemon-chiffon"
+                colorbg2="peer-hover:bg-lemon-chiffon"
+              />
             </div>
           </div>
         </div>

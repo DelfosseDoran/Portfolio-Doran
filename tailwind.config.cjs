@@ -10,8 +10,9 @@ module.exports = {
         "light-orange": "#44bba4",
         "lemon-chiffon": "#FFFBEB",
         "Feldgrau": "#3b5249",
-        "indian-red":"#A4A8D1",
-        "rose-ebony": "#63474D",
+        "cool-grey":"#A4A8D1",
+        "indian-red": "#e5989b",
+        "old-gold": "#BFD7B5",
         "raisin-black": {
           100: '#F7F3F5',
           200: '#DECED6',

@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Header from './components/Header';
 import Home from './routes/Home';
 import './assets/tailwind.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Projects from './routes/Projects';
 import Routs from './routes/Routs';
+import PhotographyMain from './routes/Photography';
+import Belgium from './routes/photography/Belgium';
+import Photography from './routes/photography/Photography';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +22,19 @@ const router = createBrowserRouter([
         path: 'projects',
         element: <Projects />,
       },
+      {
+        path: 'photography',
+        element: <PhotographyMain />,
+        children: [
+          {
+            path: 'belgium',
+            element: <Belgium/>,
+          },
+          {
+            path: '',
+            element: <Photography/>,
+          },],
+      }
     ],
   },
 ]);
