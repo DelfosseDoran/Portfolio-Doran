@@ -8,22 +8,24 @@ export default ({
 }: {
   country: string;
   text: string;
-  srcLink:string;
-  link:string;
+  srcLink: string;
+  link: string;
 }) => {
   return (
-    <div className="mx-auto mb-6 w-80 bg-indian-red md:mb-0">
-      <img className="" src={srcLink} alt={`foto in ${country}`} />
-      <div className=" p-2">
-        <h1 className="text-xl font-medium">{country}</h1>
-        <p>{text} </p>
-        <div className="flex justify-end">
-          <Link
-            link={`/photography/${link}`}
-            text="see more"
-            colorbg1="peer-hover:bg-raisin-black-600"
-          />
+    <div className="mx-auto mb-6 flex h-full w-80 flex-col justify-between bg-indian-red md:mb-0">
+      <div>
+        <img className="" src={srcLink} alt={`foto in ${country}`} />
+        <div className='p-2'>
+          <h1 className="text-xl font-medium">{country}</h1>
+          <p>{text} </p>
         </div>
+      </div>
+      <div className="flex justify-end p-2">
+        <Link
+          link={`/photography/${link}`}
+          text="see more"
+          colorbg1="peer-hover:bg-raisin-black-600"
+        />
       </div>
     </div>
   );

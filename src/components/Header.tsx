@@ -3,9 +3,9 @@ import Links from './Link';
 export default () => {
   return (
     <header className="pb-4">
-      <div className="justify-end font-medium text-raisin-black-600 hidden md:flex">
+      <div className="hidden justify-end font-medium text-raisin-black-600 md:flex">
         <Links
-          link="/home"
+          link="/"
           text="Home"
           colorText="hover:text-light-orange"
           colorbg1="peer-hover:bg-light-orange"
@@ -21,7 +21,7 @@ export default () => {
           paddingbot="pb-4"
         />
         <Links
-          link=""
+          link="/digital-art"
           text="Digital art"
           colorText="hover:text-light-orange"
           colorbg1="peer-hover:bg-light-orange"

@@ -12,7 +12,7 @@ module.exports = {
         "Feldgrau": "#3b5249",
         "cool-grey":"#A4A8D1",
         "indian-red": "#e5989b",
-        "old-gold": "#BFD7B5",
+        "tea-green": "#BFD7B5",
         "raisin-black": {
           100: '#F7F3F5',
           200: '#DECED6',

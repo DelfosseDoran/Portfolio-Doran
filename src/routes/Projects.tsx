@@ -1,32 +1,54 @@
+import Project from '../components/Project';
+
 export default () => {
   return (
-    <main className="mx-auto w-5/6">
-      <div className="flex gap-4">
-        <div className="w-1/2">
-          <img
-            src="https://images.unsplash.com/photo-1610390000000-1c1c1c1c1c1c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-            alt="Belgium"
-          />
-        </div>
-        <div className="w-1/2 bg-old-gold">
-          <div className="p-2 ">
-            <h1 className="mb-6 text-xl font-medium">PortFolio</h1>
-            <p>
-              For Frontend Development class, we had to make a portfolio. So now
-              you can see how I managed.
-            </p>
-            <div className=" bg-Feldgrau p-2 text-lemon-chiffon">
-              <h2 className="mb-2 text-lg font-medium">Technologies</h2>
-              <ul className="ml-2">
-                <li>React</li>
-                <li>Typescript</li>
-                <li>Tailwind</li>
-                <li>React Router</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+    <main className="sm:grid sm:grid-cols-12 mx-auto w-5/6">
+      <Project
+        projectName="Portfolio"
+        projectText="For Frontend Development class, we had to make a portfolio. So now
+              you can see how I managed."
+        listTegnologys={['React', 'Typescript', 'Tailwind', 'React Router']}
+        srcLink=""
+        start='col-start-3'
+      />
+      <Project
+        projectName="Car Sharing App"
+        projectText="This is an app for people who share a car. So they can see who has driven where. You can also see how much you have to pay the owner."
+        listTegnologys={['React Native', 'Expo']}
+        srcLink=""
+        start='col-start-1'
+      />
+      <Project
+        projectName="Interactive Poles"
+        projectText="This was a project for howest. For this, we had to create a game within a team for all ages. this consisted of hardware and software."
+        listTegnologys={[
+          'raspberrypi',
+          'esp',
+          'Python',
+          'C++',
+          'HTML',
+          'CSS',
+          'Javascript',
+        ]}
+        srcLink=""
+        start='col-start-5'
+      />
+      <Project
+        projectName="Europe Population"
+        projectText="A website that I had to make for the Interaction Design course. I made a website where you can compare countries geographically."
+        listTegnologys={['HTML', 'CSS', 'Javascript']}
+        srcLink=""
+        link="https://delfossedoran.github.io/eindopdracht-Interaction/"
+        start='col-start-2'
+      />
+      <Project
+        projectName="Project One"
+        projectText="The first Project I made. It was the first project I made it was a car monitor. you could see consumption, speed and distance."
+        listTegnologys={['raspberrypi', 'Python', 'HTML', 'CSS', 'Javascript']}
+        srcLink=""
+        link="https://www.instructables.com/Project-One/"
+        start='col-start-4'
+      />
     </main>
   );
 };

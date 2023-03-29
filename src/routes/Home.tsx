@@ -6,13 +6,14 @@ export default () => {
     <main>
       <div className="flex justify-center ">
         <div className="w-2/4">
-          <h1 className=" p-2 text-5xl font-bold text-raisin-black-700 mr-10 mb-12">
-            Hey I am Doran Delfosse and with this website you will learn more about me.
+          <h1 className=" mr-10 mb-12 p-2 text-5xl font-bold text-raisin-black-700">
+            Hey I am Doran Delfosse and with this website you will learn more
+            about me.
           </h1>
           <div className="-ml-1/4 flex w-screen bg-cool-grey ">
             <div className="ml-1/8 flex w-2/4 p-2 font-medium">
               <div>
-                <h2 className="text-3xl font-medium">Schools:</h2>
+                <h2 className="mb-2 text-3xl font-medium">Schools:</h2>
                 <div className="pl-2">
                   <h3 className="text-xl">Vti Waregem (2015 - 2021)</h3>
                   <div className="pl-2">
@@ -32,7 +33,7 @@ export default () => {
                 </div>
               </div>
               <div>
-                <h2 className="text-3xl">Work:</h2>
+                <h2 className="mb-2 text-3xl">Work:</h2>
                 <div>
                   <p>(2019-now) </p>
                   <p>’t Houtvuur</p>
@@ -44,7 +45,7 @@ export default () => {
         </div>
         <div className="h-fit w-1/4 bg-Feldgrau p-4 text-lemon-chiffon">
           <div>
-            <h1 className="text-3xl font-medium">projects</h1>
+            <h1 className="mb-2 text-3xl font-medium">projects</h1>
             <p>
               Learn more about the pojects I made. Be sure to check out what was
               made and how it was done.
@@ -59,14 +60,14 @@ export default () => {
             </div>
           </div>
           <div>
-            <h1 className="text-3xl font-medium">digital art</h1>
+            <h1 className="mb-2 text-3xl font-medium">digital art</h1>
             <p>
               Check out the works that I have already made. everything is made
               with photoshop or ilustraitor.
             </p>
             <div className="flex justify-end">
               <div className="relative mx-1 flex flex-col ">
-                <Link to="" className="peer text-right ">
+                <Link to="/digital-art" className="peer text-right ">
                   Learn more
                 </Link>
                 <span className="absolute bottom-0 left-0 h-1 w-full origin-left scale-y-50 scale-x-0 bg-lemon-chiffon duration-200 peer-hover:scale-x-100"></span>
@@ -74,7 +75,7 @@ export default () => {
             </div>
           </div>
           <div>
-            <h1 className="text-3xl font-medium">photography</h1>
+            <h1 className="mb-2 text-3xl font-medium">photography</h1>
             <p>
               {' '}
               I love travelling, I love nature and I love photography so I
