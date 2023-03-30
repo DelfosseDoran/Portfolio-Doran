@@ -42,9 +42,9 @@ export default ({
             </div>
           ) : null}
           <div className=" bg-Feldgrau p-2 text-lemon-chiffon">
-            <h1 className={`peer mb-2 text-lg font-medium`}>Technologies
-            </h1>
-            <ul className={`peer-p:block ml-2 hidden`}>{list}</ul>
+            <button className={`peer pb-2 w-full text-lg font-medium`}>Technologies
+            </button>
+            <ul className={` peer-focus:block ml-2 hidden`}>{list}</ul>
           </div>
         </div>
       </div>
