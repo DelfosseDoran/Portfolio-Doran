@@ -25,6 +25,7 @@ export default ({
           link={`/photography/${link}`}
           text="see more"
           colorbg1="peer-hover:bg-raisin-black-600"
+          color="focus:ring-raisin-black-600"
         />
       </div>
     </div>

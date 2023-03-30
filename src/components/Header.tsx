@@ -11,6 +11,7 @@ export default () => {
           colorbg1="peer-hover:bg-light-orange"
           padding="p-8"
           paddingbot="pb-4"
+          color="focus:ring-raisin-black-600"
         />
         <Links
           link="/projects"
@@ -19,6 +20,7 @@ export default () => {
           colorbg1="peer-hover:bg-light-orange"
           padding="p-8"
           paddingbot="pb-4"
+          color="focus:ring-raisin-black-600"
         />
         <Links
           link="/digital-art"
@@ -27,6 +29,7 @@ export default () => {
           colorbg1="peer-hover:bg-light-orange"
           padding="p-8"
           paddingbot="pb-4"
+          color="focus:ring-raisin-black-600"
         />
         <Links
           link="/photography"
@@ -35,6 +38,7 @@ export default () => {
           colorbg1="peer-hover:bg-light-orange"
           padding="p-8"
           paddingbot="pb-4"
+          color="focus:ring-raisin-black-600"
         />
       </div>
     </header>

@@ -22,12 +22,12 @@ export default ({
     return <li key={index}>{item}</li>;
   });
   return (
-    <div className={` col-span-7 pb-6 ${start} ${reverse}`}>
+    <div className={` col-span-11 flex gap-4 pb-6 ${start} ${reverse}`}>
       {/* flex */}
-      {/* <div className="w-1/2">
+      <div className="w-2/5">
         <img src={srcLink} alt={`foto of ${projectName}`} />
-      </div> */}
-      <div className=" bg-tea-green">
+      </div>
+      <div className=" w-3/5 bg-tea-green">
         <div className="p-2 ">
           <h1 className="mb-4 text-xl font-medium">{projectName}</h1>
           <p className="mb-2">{projectText}</p>
@@ -42,8 +42,9 @@ export default ({
             </div>
           ) : null}
           <div className=" bg-Feldgrau p-2 text-lemon-chiffon">
-            <h2 className="mb-2 text-lg font-medium">Technologies</h2>
-            <ul className="ml-2">{list}</ul>
+            <h1 className={`peer mb-2 text-lg font-medium`}>Technologies
+            </h1>
+            <ul className={`peer-p:block ml-2 hidden`}>{list}</ul>
           </div>
         </div>
       </div>

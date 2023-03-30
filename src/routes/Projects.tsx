@@ -9,14 +9,15 @@ export default () => {
               you can see how I managed."
         listTegnologys={['React', 'Typescript', 'Tailwind', 'React Router']}
         srcLink=""
-        start='col-start-3'
+        start='col-start-1'
       />
       <Project
         projectName="Car Sharing App"
         projectText="This is an app for people who share a car. So they can see who has driven where. You can also see how much you have to pay the owner."
         listTegnologys={['React Native', 'Expo']}
         srcLink=""
-        start='col-start-1'
+        start='col-start-2'
+        reverse='flex-row-reverse'
       />
       <Project
         projectName="Interactive Poles"
@@ -31,7 +32,7 @@ export default () => {
           'Javascript',
         ]}
         srcLink=""
-        start='col-start-5'
+        start='col-start-1'
       />
       <Project
         projectName="Europe Population"
@@ -40,6 +41,7 @@ export default () => {
         srcLink=""
         link="https://delfossedoran.github.io/eindopdracht-Interaction/"
         start='col-start-2'
+        reverse='flex-row-reverse'
       />
       <Project
         projectName="Project One"
@@ -47,7 +49,7 @@ export default () => {
         listTegnologys={['raspberrypi', 'Python', 'HTML', 'CSS', 'Javascript']}
         srcLink=""
         link="https://www.instructables.com/Project-One/"
-        start='col-start-4'
+        start='col-start-1'
       />
     </main>
   );
