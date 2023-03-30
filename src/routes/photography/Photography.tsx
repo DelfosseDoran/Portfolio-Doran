@@ -10,7 +10,7 @@ export default () => {
       <div className="mx-auto gap-y-6 pb-10 md:grid md:grid-cols-2 lg:grid-cols-3 2xl:w-4/6">
         <Country
           country="Belgium"
-          srcLink="images/DSC_0050.jpg"
+          srcLink="/images/DSC_0050.jpg"
           text="See the photos from where i live"
           link="belgium"
         />
